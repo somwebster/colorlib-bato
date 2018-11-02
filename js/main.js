@@ -100,11 +100,13 @@
 
 	// Owl Carousel
 	var owlCarouselFeatureSlide = function() {
+		
 		var owl2 = $('.owl-carousel');
 		owl2.owlCarousel({
 			animateOut: 'fadeOut',
 		   animateIn: 'fadeIn',
 		   autoplay: true,
+		   autoplayTimeout:5000,
 		   loop:true,
 		   margin:0,
 		   nav: true,
@@ -123,6 +125,7 @@
 			animateOut: 'fadeOut',
 		   animateIn: 'fadeIn',
 		   autoplay: true,
+	           autoplayTimeout:5000,
 		   loop:true,
 		   margin:0,
 		   nav: false,
